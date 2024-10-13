@@ -2,7 +2,8 @@ function getSum() {
     let sum = 0
 
     return function (value) {
-        console.log(sum += value);
+        sum += value
+        console.log(sum);
         return sum
     }
 }
